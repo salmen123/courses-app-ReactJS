@@ -18,12 +18,14 @@
 
 ### Production Dependencies
 
-| **Dependency**              | **Use**                                                                                                                                                 |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| @testing-library/jest-dom   | Custom jest matchers to test the state of the DOM                                                                                                       |
-| @testing-library/react      | Simple and complete React DOM testing utilities that encourage good testing practices                                                                   |
-| @testing-library/user-event | Fire events the same way the user does                                                                                                                  |
-| react                       | React is a JavaScript library for creating user interfaces                                                                                              |
-| react-dom                   | This package serves as the entry point to the DOM and server renderers for React                                                                        |
-| react-scripts               | This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app)                                |
-| web-vitals                  | The web-vitals library is a tiny (~1K), modular library for measuring all the [Web Vitals](https://web.dev/articles/vitals?hl=fr) metrics on real users |
+| **Dependency**              | **Use**                                                                                                                  |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| react                       | React is a JavaScript library for creating user interfaces                                                               |
+| react-dom                   | This package serves as the entry point to the DOM and server renderers for React                                         |
+| react-scripts               | This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app) |
+
+### Development Dependencies
+
+| **Dependency**                                    | **Use**                                                           |
+|---------------------------------------------------|-------------------------------------------------------------------|
+| @babel/plugin-proposal-private-property-in-object | This plugin transforms checks for a private property in an object |
