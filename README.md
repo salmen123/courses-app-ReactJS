@@ -18,11 +18,13 @@
 
 ### Production Dependencies
 
-| **Dependency**              | **Use**                                                                                                                  |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| react                       | React is a JavaScript library for creating user interfaces                                                               |
-| react-dom                   | This package serves as the entry point to the DOM and server renderers for React                                         |
-| react-scripts               | This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app) |
+| **Dependency**   | **Use**                                                                                                                                 |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| react            | React is a JavaScript library for creating user interfaces                                                                              |
+| react-dom        | This package serves as the entry point to the DOM and server renderers for React                                                        |
+| react-scripts    | This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app)                |
+| react-router-dom | The react-router-dom package contains bindings for using [React Router](https://github.com/remix-run/react-router)  in web applications |
+| bootstrap        | Sleek, intuitive, and powerful front-end framework for faster and easier web development                                                |
 
 ### Development Dependencies
 
